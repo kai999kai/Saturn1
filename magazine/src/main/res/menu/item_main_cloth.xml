@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/iron" android:title="@string/iron"/>
+    <item android:id="@+id/water_iron" android:title="@string/water_iron" />
+    <item android:id="@+id/car_cloth" android:title="@string/car_cloth"/>
+
+
+</menu>

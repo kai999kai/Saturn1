@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/fan" android:title="@string/fan"/>
+    <item android:id="@+id/infrared" android:title="@string/infrared" />
+    <item android:id="@+id/convection" android:title="@string/convection"/>
+    <item android:id="@+id/conditioners" android:title="@string/conditioners" />
+    <item android:id="@+id/heater" android:title="@string/heater"/>
+    <item android:id="@+id/heat_fan" android:title="@string/heat_fan" />
+
+</menu>

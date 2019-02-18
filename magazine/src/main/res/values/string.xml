@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Button Main Activity. -->
+	<string name="cold">Холодильники</string>
+	<string name="cloth">Уход за одеждой</string>
+	<string name="house">Техника для дома</string>
+	<string name="washer">Стиральные машины</string>
+	<string name="multimedia">Мультимедия</string>
+	<string name="beauty">Красота и здоровье</string>
+	<string name="climate">Климатическая техника</string>
+	<string name="kitchen">Техника для кухни</string>
+	<string name="android">Планшеты</string>
+
+	<string name="Saturn">Saturn</string>
+	
+	<string name="product_picture">Картинка товара</string>
+	
+	<string name="office_number">Главный сервисный центр 044 5911190 (service@saturn.ua)</string>
+	<string name="saturn2019">Saturn 2019 v.0.1901.10</string>
+	<string name="txPhone">Телефон</string>
+	<string name="emil">Почта</string>
+	<string name="backwards">Назад</string>
+	<string name="clickInternet">Переход на Сайт товара</string>
+	<string name="serviceCenter">Связаться с сервис центром</string>
+
+
+
+
+
+
+	
+
+	<!-- item context Menu. Main Activity -->
+	<!-- Андроид. -->
+	<string name="phone">Телефоны</string>
+	<string name="tablet">Плашеты</string>
+	<!-- Климат. -->
+	<string name="fan">Вентиляторы</string>
+	<string name="infrared">Инфрокрасные обогреватели</string>
+	<string name="convection">Конвекторы</string>
+	<string name="conditioners">Кондиционеры</string>
+	<string name="heater">Масляные обогреватели</string>
+	<string name="heat_fan">Тепловентиляторы</string>
+	<!-- Уход за одеждой. -->
+	<string name="iron">Утюги</string>
+	<string name="water_iron">Паровые утюги</string>
+	<string name="car_cloth">Машинки для стрижки катышек</string>
+	<!-- Холодильники. -->
+	<string name="fridge">Холодильники</string>
+	<string name="cold_camera">Морозильная камера</string>
+	<string name="cold_lari">Морозильные лари</string>
+	<!-- Техника для дома. -->
+	<string name="clean">Пылесос</string>
+	<string name="water_air">Увлажнитель воздуха</string>
+	<!-- Телевизоры. -->
+	<string name="dvd">DVD проигрыватели</string>
+	<string name="tv">Телевизоры</string>
+	<string name="video_recorder">Видеорегистраторы</string>
+	<string name="fastening">Крепления под телевизоры</string>
+	<string name="media_player">Медиаплееры</string>
+	<!-- Стиральные машины. -->
+	<string name="washing_car">Стиральные машины</string>
+	<string name="washing_auto">Стиральные машины автомат</string>
+	<!-- Красота и здоровье. -->
+	<string name="shavers">Бритвы</string>
+	<string name="massager">Массажеры</string>
+	<string name="car_cutting">Машинки для стрижки</string>
+	<string name="curling">Плойки</string>
+	<string name="hair_dryer">Фены</string>
+	<string name="hair_straightener">Выпрямители для волос</string>
+	<string name="massage_water">Массажные ванночки для ног</string>
+	<string name="scales">Напольные весы</string>
+	<string name="trimmer">Триммеры</string>
+	<string name="epilator">Эпиляторы</string>
+	<!-- Техника для кухни -->
+	<string name="air_grill">Аэрогрили</string>
+	<string name="blinnitsa">Блинницы</string>
+	<string name="yogurt">Йогуртницы</string>
+	<string name="kitchen_scales">Кухонные весы</string>
+	<string name="microwave">Микроволновые печи</string>
+	<string name="sandwich">Сэндвичницы</string>
+	<string name="steamer">Пароварки</string>
+	<string name="thermopot">Термопоты</string>
+	<string name="bread">Хлебопечки</string>
+	<string name="chopper">Чопперы</string>
+	<string name="meat">Электромясорубки</string>
+	<string name="kettle">Электрочайники</string>
+	<string name="blender_in">Блендеры погружные</string>
+	<string name="bowlerway">Вафельницы</string>
+	<string name="coffee_maker">Кофеварки</string>
+	<string name="processor">Кухонные комбаины</string>
+	<string name="mixer">Миксеры</string>
+	<string name="multi_food">Мультиварки</string>
+	<string name="electric_bake">Печи электрические</string>
+	<string name="toaster">Тостеры</string>
+	<string name="potatoes">Картофелечистки электрические</string>
+	<string name="barbecue">Шашлычницы</string>
+	<string name="electric_plate">Электроплитки</string>
+	<string name="blender_out">Блендеры стационарные</string>
+	<string name="gas_plate">Газовые таганки</string>
+	<string name="coffee_grinder">Кофемолки</string>
+	<string name="kitchen_stove">Кухонные плиты</string>
+	<string name="ice_cream">Мороженицы</string>
+	<string name="nut">Орешницы</string>
+	<string name="juice">Соковыжималки</string>
+	<string name="fri">Фритюрницы</string>
+	<string name="omelette">Омлетницы</string>
+	<string name="electric_grill">Электрогрили</string>
+	<string name="electric_drill">Электросушилки для продуктов</string>
+
+</resources>

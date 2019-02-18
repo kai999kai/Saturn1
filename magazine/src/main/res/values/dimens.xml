@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_top_goods">24sp</dimen>
+    <dimen name="text_list_naming">21sp</dimen>
+    <dimen name="text_item_list">18sp</dimen>
+    <dimen name="text_naming_goods">12sp</dimen>
+
+
+
+
+</resources>

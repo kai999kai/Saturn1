@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/shavers" android:title="@string/shavers" />
+    <item android:id="@+id/hair_straightener" android:title="@string/hair_straightener" />
+    <item android:id="@+id/massager" android:title="@string/massager" />
+    <item android:id="@+id/massage_water" android:title="@string/massage_water" />
+    <item android:id="@+id/car_cutting" android:title="@string/car_cutting" />
+    <item android:id="@+id/scales" android:title="@string/scales" />
+    <item android:id="@+id/breadcrumba" android:title="@string/curling" />
+    <item android:id="@+id/trimmer" android:title="@string/trimmer" />
+    <item android:id="@+id/hair_dryer" android:title="@string/hair_dryer" />
+    <item android:id="@+id/epilator" android:title="@string/epilator" />
+
+
+</menu>

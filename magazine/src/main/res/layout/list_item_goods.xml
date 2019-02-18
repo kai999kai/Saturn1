@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment"
+        android:background="@color/background_goods_naming">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvNaming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Saturn"
+                android:textSize="@dimen/text_naming_goods"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvDescriptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Saturn"
+                android:layout_gravity="end"
+                android:textSize="@dimen/text_naming_goods"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+
+                 />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

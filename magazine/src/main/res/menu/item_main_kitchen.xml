@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/air_grill" android:title="@string/air_grill"/>
+    <item android:id="@+id/blender_in" android:title="@string/blender_in"/>
+    <item android:id="@+id/blender_out" android:title="@string/blender_out" />
+    <item android:id="@+id/blinnitsa" android:title="@string/blinnitsa" />
+    <item android:id="@+id/bowlerway" android:title="@string/bowlerway" />
+    <item android:id="@+id/gas_plate" android:title="@string/gas_plate"/>
+    <item android:id="@+id/yogurt" android:title="@string/yogurt"/>
+    <item android:id="@+id/potatoes" android:title="@string/potatoes"/>
+    <item android:id="@+id/coffee_maker" android:title="@string/coffee_maker"/>
+    <item android:id="@+id/coffee_grinder" android:title="@string/coffee_grinder" />
+    <item android:id="@+id/kitchen_scales" android:title="@string/kitchen_scales" />
+    <item android:id="@+id/processor" android:title="@string/processor" />
+    <item android:id="@+id/kitchen_stove" android:title="@string/kitchen_stove"/>
+    <item android:id="@+id/microwave" android:title="@string/microwave"/>
+    <item android:id="@+id/mixer" android:title="@string/mixer"/>
+    <item android:id="@+id/multi_food" android:title="@string/multi_food" />
+    <item android:id="@+id/ice_cream" android:title="@string/ice_cream" />
+    <item android:id="@+id/omelette" android:title="@string/omelette" />
+    <item android:id="@+id/nut" android:title="@string/nut"/>
+    <item android:id="@+id/steamer" android:title="@string/steamer"/>
+    <item android:id="@+id/electric_bake" android:title="@string/electric_bake"/>
+    <item android:id="@+id/juice" android:title="@string/juice" />
+    <item android:id="@+id/sandwich" android:title="@string/sandwich" />
+    <item android:id="@+id/thermopot" android:title="@string/thermopot" />
+    <item android:id="@+id/toaster" android:title="@string/toaster" />
+    <item android:id="@+id/fri" android:title="@string/fri"/>
+    <item android:id="@+id/bread" android:title="@string/bread"/>
+    <item android:id="@+id/chopper" android:title="@string/chopper" />
+    <item android:id="@+id/barbecue" android:title="@string/barbecue" />
+    <item android:id="@+id/electric_grill" android:title="@string/electric_grill"/>
+    <item android:id="@+id/meat" android:title="@string/meat"/>
+    <item android:id="@+id/electric_plate" android:title="@string/electric_plate"/>
+    <item android:id="@+id/electric_drill" android:title="@string/electric_drill" />
+    <item android:id="@+id/kettle" android:title="@string/kettle" />
+
+
+</menu>
