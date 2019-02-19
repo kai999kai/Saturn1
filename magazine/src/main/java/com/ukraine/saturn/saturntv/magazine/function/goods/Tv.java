@@ -18,7 +18,7 @@ public class Tv {
     private String[] arr_descriptions;
     private int image;
     private String url_goods;
-    private String url_gods;
+
 
 
     public Tv(String[] arr_category, int id_arr) {
