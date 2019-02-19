@@ -37,39 +37,39 @@ public class Multimedia {
 
         if (Arrays.equals(arr_category, NAME_ARR_DVD_ALL)) {
             arr_naming = new String[]{"Мощность, Вт:", "Разъемы:", "Прогрессивное сканирование:",
-                    "Совместимый с форматами дисков:", "AудиоВыходы:"};
+                    "Читаемые форматы дисков:", "", "AудиоВыходы:"};
             switch (arr_category[id_arr]) {
                 case "ST-DV7724":
                     arr_descriptions = new String[]{"25", "USB 2.0, SCART", "Да",
-                            "DivX, DVD, DVD+/-RW, VCD, CD, MP3, MPEG4, WMA, Kodak CD",
+                            "DivX, DVD, DVD+/-RW", "VCD, CD, MP3, MPEG4, WMA, Kodak CD",
                             "2.1, Coaxial, Optical"};
                     image = R.mipmap.dvd_st_dv7724;
                     url_goods = "http://saturn.ua/ru/catalog/multimedia/dvd_proigryvateli/saturn_st_dv7724/";
                     break;
                 case "ST-DV7704":
                     arr_descriptions = new String[]{"25", "USB 2.0, SCART", "Да",
-                            "DivX, DVD, DVD+/-RW, VCD, CD, MP3, MPEG4, WMA, Kodak CD",
+                            "DivX, DVD, DVD+/-RW, VCD", "CD, MP3, MPEG4, WMA, Kodak CD",
                             "2.1, Coaxial, Optical"};
                     image = R.mipmap.dvd_st_dv7704;
                     url_goods = "http://saturn.ua/ru/catalog/multimedia/dvd_proigryvateli/saturn_st_dv7704/";
                     break;
                 case "ST-DV7707":
                     arr_descriptions = new String[]{"25", "USB 2.0, SCART", "Да",
-                            "DivX, DVD, DVD+/-RW, VCD, CD, MP3, MPEG4, Kodak CD",
+                            "DivX, DVD, DVD+/-RW, VCD", "CD, MP3, MPEG4, Kodak CD",
                             "2.1, Coaxial, Optical"};
                     image = R.mipmap.dvd_st_dv7707;
                     url_goods = "http://saturn.ua/ru/catalog/multimedia/dvd_proigryvateli/saturn_st_dv7707/";
                     break;
                 case "ST-DV7731":
                     arr_descriptions = new String[]{"15", "USB 2.0, SCART", "Да",
-                            "DIVX/MPEG 4/DVD, DVD-/+R, DVD-/+RW, VCD, SVCD, CD, CD-R," +
-                                    " CD-RW, Kodak CD", "2.0, Coaxial, Optical"};
+                            "DIVX/MPEG 4/DVD, DVD-/+R", "DVD-/+RW, VCD, SVCD, CD, CD-R," +
+                            " CD-RW, Kodak CD", "2.0, Coaxial, Optical"};
                     image = R.mipmap.dvd_st_dv7731;
                     url_goods = "http://saturn.ua/ru/catalog/multimedia/dvd_proigryvateli/saturn_st_dv7731/";
                     break;
                 case "ST-DV7705":
                     arr_descriptions = new String[]{"25", "USB 2.0, SCART; HDMI", "Да",
-                            "DivX, DVD, DVD+/-RW, VCD, CD, MP3, MPEG4, WMA, JPG, Kodak CD",
+                            "DivX, DVD, DVD+/-RW, VCD", "CD, MP3, MPEG4, WMA, JPG, Kodak CD",
                             "5.1, Coaxial, Optical"};
                     image = R.mipmap.dvd_st_dv7705;
                     url_goods = "http://saturn.ua/ru/catalog/multimedia/dvd_proigryvateli/saturn_st_dv7705/";
@@ -175,20 +175,25 @@ public class Multimedia {
             //NAME_ARR_MEDIA_PLAYER_ALL
             arr_naming = new String[]{
                     "Внутренняя память, Гб:", "Оперативная память:", "Частота процессора, Ггц:",
-                    "ОС, версия:", "Wi-Fi (b/g/n):", "Процессор:", "Карты памяти:", "Интерфейс:",
-                    "Аксессуары:", "Файловая система:", "Поддерживаемые форматы: кодеки:"};
+                    "ОС, версия:", "Wi-Fi (b/g/n):", "Процессор:", "Карты памяти:", "Интерфейс:", "", "WI-FI:",
+                    "LAN Интернет:",
+                    "Аксессуары:", "", "Файловая система:", "Поддерживаемые форматы:", "кодеки:", "", "",
+                    "3D-видео:", "аудио:", "изображения:", "субтитры:"};
             arr_descriptions = new String[]{
                     "4", "1Gb", "1", "Android 4.0", "Да", "Cortex A8", "SD, SDHC, MMC",
-                    "USB 2.0 х 3 / USB 2.0 OTG х 1 / Card Reader " +
-                            "(макс. 32 Гб) х 1 / WI-FI: IEEE 802.11 b/g/n / " +
-                            "LAN Интернет: RJ45 (10/100Mbps) / HDMI 1.3 / Композитный AV / DC",
-                    "Адаптер питания, Пульт ДУ, Композитный AV-кабель, HDMI кабель",
-                    "FAT16, FAT32, NTFS",
-                    "AVI, DAT, DIVX, FLV, Google VP8, H.263, H.264, IFO, MKV, MOV, MPG, MP4, " +
-                            "MPEG1/2/4, REAL Media, RM, RMVB, Sorenson Spark, VOB, WMV, WMV9, " +
-                            "XVID; 3D-видео: TS, M2TS; аудио: AAC, AC3, FLAC, LPCM, MP3, WAV, WMA," +
-                            "OGG; изображения: JPEG, BMP, PNG, GIF; субтитры: IDX + SUB, SMI, SRT," +
-                            "SSA, SUB"};
+                    "USB 2.0 х 3 / USB 2.0 OTG х 1 / Card Reader",
+                    "(макс. 32 Гб) х 1 / HDMI 1.3/ Композитный AV/DC ",
+                            "IEEE 802.11 b/g/n/",
+                    "RJ45(10/100Mbps)",
+                    "Адаптер питания, Пульт ДУ", "Композитный AV-кабель, HDMI кабель",
+                    "FAT16, FAT32, NTFS", "",
+                    "AVI, DAT, DIVX, FLV, Google VP8, WMV9, XVID",
+                    "H.263, H.264, IFO, MKV, MOV, MPG, MP4, MPEG1/2/4,",
+                    "REAL Media, RM, RMVB, Sorenson Spark, VOB, WMV",
+                    "TS, M2TS",
+                    "AAC, AC3, FLAC, LPCM, MP3, WAV, WMA, OGG",
+                    "JPEG, BMP, PNG, GIF",
+                    "IDX + SUB, SMI, SRT, SSA, SUB"};
             image = R.mipmap.media_player_tv_mphdi_01_3d;
             url_goods = "http://saturn.ua/ru/catalog/multimedia/mediapleery/saturn_tv_mphdi_01_3d/";
 
