@@ -38,7 +38,7 @@ public class Kitchen_scales {
             case "ST-KS7800":
                 arr_descriptions = new String[]{
                         "1,2", "пластик", "2", "Да", "1", "пластик", "Да", "Да",
-                        "Да", "Да", "2 батарейки AAA", "-"};
+                        "Да", "Да", "2 батарейки AAA", "-", "-"};
                 image = R.mipmap.kitchen_scales_st_ks7800;
                 url_goods = "http://saturn.ua/ru/catalog/tekhnika_dlya_kukhni/kukhonnye_vesy/saturn_st_ks7800/";
                 break;

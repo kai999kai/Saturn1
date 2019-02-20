@@ -102,7 +102,7 @@ public class Water_iron_and_Car_cloth {
                     image = R.mipmap.car_cloth_st_cc1548_wgn;
                     url_goods = "http://saturn.ua/ru/catalog/ukhod_za_odezhdoy/mashinki_dlya_strizhki_katyshkov/saturn_st_cc1548_wgn/";
                     break;
-                case "ST-ST-CC1547":
+                case "ST-CC1547":
                     arr_descriptions = new String[]{"Да", "44", "2 батарейки AA", "Да"};
                     image = R.mipmap.car_cloth_st_cc1547;
                     url_goods = "http://saturn.ua/ru/catalog/ukhod_za_odezhdoy/mashinki_dlya_strizhki_katyshkov/saturn_st_cc1547/";

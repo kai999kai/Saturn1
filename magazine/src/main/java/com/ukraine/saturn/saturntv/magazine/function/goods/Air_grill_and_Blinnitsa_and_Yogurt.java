@@ -85,7 +85,7 @@ public class Air_grill_and_Blinnitsa_and_Yogurt {
             }
         } else if (Arrays.equals(arr_category, NAME_ARR_BLINNITSA_ALL)) {
             arr_naming = new String[]{"Мощность, Вт:", "Регулируемый термостат:",
-                    "Діаметр поверхні для смаження, см:", "Температура нагрева, °C:",
+                    "Диаметр поверхности для жарки, см:", "Температура нагрева, °C:",
                     "Нескользящие ножки:", "Световой индикатор:", "Антипригарное покрытие:",
                     "Защита от перегрева:", "Аксессуары:"};
             switch (arr_category[id_arr]) {
@@ -98,7 +98,7 @@ public class Air_grill_and_Blinnitsa_and_Yogurt {
                     break;
                 case "ST-EC6002":
                     arr_descriptions = new String[]{"1000", "Да", "28", "200", "Да", "Да", "Да",
-                            "Да"};
+                            "Да", "-"};
                     image = R.mipmap.blinnitsa_st_ec6002;
                     url_goods = "http://saturn.ua/ru/catalog/tekhnika_dlya_kukhni/blinnitsy/saturn_st_ec6002/";
                     break;

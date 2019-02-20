@@ -17,6 +17,7 @@
         android:textSize="@dimen/text_naming_goods"
         android:textStyle="bold"
         android:textColor="@color/red"
+        android:maxWidth="180dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,6 +31,7 @@
         android:textSize="@dimen/text_naming_goods"
         android:textStyle="bold"
         android:textColor="@color/red"
+        android:maxWidth="180dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

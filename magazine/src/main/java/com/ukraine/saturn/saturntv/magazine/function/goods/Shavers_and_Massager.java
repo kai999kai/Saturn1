@@ -38,7 +38,7 @@ public class Shavers_and_Massager {
             arr_naming = new String[]{
                     "Мощность, Вт:", "Бритвенные головки:", "Плавающие лезвия:", "Триммер:",
                     "Водонепроницаемый корпус:", "Время зарядки, ч:",
-                    "Время непрерывной работы, мин:", ":"};
+                    "Время непрерывной работы, мин:", "Аксессуары"};
             switch (arr_category[id_arr]) {
                 case "ST-HC7395":
                     arr_descriptions = new String[]{
