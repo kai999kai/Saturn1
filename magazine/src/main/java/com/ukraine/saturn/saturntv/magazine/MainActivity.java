@@ -60,15 +60,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
 
-        boolean b;
+        boolean b = false;
         int id = new ChoiceContextMenu().item_choice_menu(item.getItemId());
 
         if ((id == CHOICE_CONTEXT_PHONE) || (id == CHOICE_CONTEXT_ELECTRIC_GRILL) ||
                 (id == CHOICE_CONTEXT_CHOPPER)) {
             Toast.makeText(this, "В данном разделе еще нет товара",
                     Toast.LENGTH_LONG).show();
-            b = false;
-
         } else {
             Intent intent = new Intent(this, ListCategoryActivity.class);
             intent.putExtra("id_context_menu", id);
@@ -93,13 +91,13 @@ public class MainActivity extends AppCompatActivity {
         builder.setTitle(R.string.saturn2019).setMessage(R.string.office_number);
 
         builder.setPositiveButton(R.string.txPhone, (dialog, which) -> {
-            String number = "tel:+380445911190";
+            final String number = "tel:+380445911190";
             startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(number)));
             finish();
         });
 
         builder.setNegativeButton(R.string.emil, (dialog, which) -> {
-            String emil = "mailto:service@saturn.ua";
+            final String emil = "mailto:service@saturn.ua";
             startActivity(new Intent(Intent.ACTION_SENDTO, Uri.parse(emil)));
             finish();
         });
